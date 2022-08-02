@@ -3,7 +3,7 @@ import ImageSlide from './ImageSlide'
 
 const Landing = () => {
   return (
-    <div className='w-4/5 mx-auto mt-5 flex flex-col lg:flex-row jusitfy-between h-screen'>
+    <div className='w-4/5  mx-auto mt-10 md:mt-[100px] lg:mt-0 flex flex-col lg:flex-row jusitfy-between h-screen'>
         <div className='w-full lg:w-1/2  h-1/2 mb-14 md:mb-[150px] lg:mb-0 lg:h-full flex justify-center  items-center '>
             <ImageSlide  />
         </div>

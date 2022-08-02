@@ -11,7 +11,7 @@ const Header = () =>{
 
   return (
 
-  <div className="w-screen h-[100px] header bg-white">
+  <div className="w-screen h-[100px] header ">
     <div className='w-4/5 border-b-2 h-full mx-auto flex items-center justify-between '>
       <div className='flex items-center flex-wrap gap-5'>
       <div className='lg:hidden   text-left text-3xl ' onClick={()=>setMenuopen(true)}>
